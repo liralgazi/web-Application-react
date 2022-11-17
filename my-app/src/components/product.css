@@ -1,4 +1,30 @@
 .product-item{
-    color:black;
-    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    font-family: ".SF NS Mono", sans-serif;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 10px 0px 20px 50px;
+
+}
+
+
+.product__item__description{
+    margin-left: -35px;
+    margin-right: 40px;
+}
+
+
+.product__item__image{
+    width:500px;
+    height: auto;
+    max-width: 23%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -40px;
+    margin-left: 210px;
 }
