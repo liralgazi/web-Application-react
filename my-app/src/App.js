@@ -20,7 +20,7 @@ function App() {
       <header className="App-header">
           <div className="title">
             <div className="productRow">
-            Vegetables:
+            Products:
               {
                 !selected ? (   items.map(item=><Product key={item.id} click={()=>setSelected(item)} product={item}
             />)):(<div><Product isSelect={true} key={selected.id} click={()=>setSelected(null)} product={selected}/></div>)
