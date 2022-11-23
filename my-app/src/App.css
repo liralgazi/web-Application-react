@@ -3,17 +3,30 @@
 }
 
 .App-header {
-  background-color: white;
+  /* background-color: white; */
   min-height: 100vh;
   display: flex;
   font-size: calc(10px + 2vmin);
   color: black;
   margin-top: 35px;
   margin-left: 10px;
+  /* width: 500px; */
 }
 
 .title{
   color: black;
   border: black;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: fantasy;
+  
+}
+
+.productRow{
+  color: rgb(1, 0, 2);
+  font-size: 1.5rem;
+  background-color: white
+  /* width: 500px; */
+  /* position: fixed; */
 }
 
